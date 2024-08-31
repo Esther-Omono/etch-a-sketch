@@ -20,11 +20,20 @@ function createGrid(squaresPerSide) {
         div.style.maxWidth = `${percentage}%`;
 
         div.addEventListener("mouseover", () => {
-            div.classList.add("hovered");
+            const randomColor = getRandomRGBColor();
+            div.style.backgroundColor = randomColor;
+            // div.classList.add("hovered");
         });
 
         container.appendChild(div);
     }
+}
+
+function getRandomRGBColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
 }
 
 button.addEventListener("click", () => {
