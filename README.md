@@ -20,8 +20,8 @@ Welcome to the Etch-a-Sketch project! This is a simple drawing application that 
 ## Technologies Used
 
 - **HTML5:** For structuring the web page.
-- **CSS3:** For styling the game and making it responsive.
-- **JavaScript (ES6+):** For game logic and interactivity.
+- **CSS3:** For styling the project.
+- **JavaScript (ES6+):** For logic and interactivity.
 
 ## Getting Started
 
